@@ -1,0 +1,54 @@
+/*
+Theme Name: Fashionista FSE
+Theme URI: https://gracethemes.com/themes/free-fashion-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: Fashionista FSE is one of the best fashion WordPress theme for commercial websites related to clothes, clothing, clothing shop, clothing store, fashion, fashion blog, fashion store, minimal, and shoe store. If you are looking forward to picking the best option for your fashion store, boutique, model agency, salon, and all other fashion-related commercial websites, pick this free fashion WordPress theme to avail the best functions and features of all time. This multipurpose theme is also suitable for business corporate, construction, hotel, restaurant, flower shop, travel and tour website, coaching, education, sports, medical, doctor, gym, fitness, modelling and wedding. It is a multi-browser and cross-device compatibility theme. It comes with a highly reliable and friendly user interface. Operating it is incredibly easy and simple. This multi-resolution theme will run seamlessly on both high and low-resolution devices without any trouble. It is compatible with the WooCommerce plugin, so you can easily create your online store website. Demo: https://gracethemesdemo.com/fashionista/
+Version: 1.1
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fashionista-fse
+Requires PHP:  5.6
+Tested up to: 6.4
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+Fashionista FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2023.
+Fashionista FSE WordPress Theme is released under the terms of GNU GPL
+*/
+html, body { overflow-x: hidden; }
+ul.footer-post li{ margin-bottom:15px !important;}
+ul.footer-post li a.wp-block-latest-posts__post-title{ margin-bottom:5px !important; display:inline-block;}
+.wp-block-navigation ul{ padding:20px !important;}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ background-color:#ffffff; padding:25px 5px 15px 5px !important}
+.menu-right-box{ position:relative;z-index:999; }
+.header-Top{ position:relative;}
+.header-Top .wp-block-group figure.wp-block-image{ line-height:1;}
+.fashion-wrap{ position: relative; width:100%; z-index:999; margin-top:-36px !important}
+body.home .Logo-menu-wrap{ position: absolute; width:100%;}
+
+.SF-Sidebar ul.latest-post li{ margin-bottom:25px !important; }
+.SF-Sidebar ul.latest-post li a.wp-block-latest-posts__post-title{ margin-bottom:10px !important; display:block;}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ margin:30px 0 0;padding:0;}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ width:40%;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;color:#797979;margin-bottom:0;height:40px;padding:0 15px;}	
+.wpcf7 textarea{color:#797979;margin-bottom:25px;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;padding:10px;width:60%;	height:160px;font-size:12px;}
+.wpcf7 input[type="submit"]{border-radius:40px;font-weight:600;font-size:16px;cursor:pointer;background-color:#101010;padding:20px 40px;color:#ffffff;width:auto;border:none;text-transform:uppercase;}
+
+
+/* = Footer CSS
+----------------------------------------------- */
+.footer-3-column{ position:relative;}
+.footer-3-column h3.wp-block-heading{ position:relative; }
+ul.fs-footer-post{ margin:0; padding:0;}
+ul.fs-footer-post li{ list-style:none; margin-bottom:30px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ margin-top:6px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ border-radius:10px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ margin-bottom:15px; display:block; line-height:22px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ color:#8cc73e;}
+
+ul.footer-page-list{ list-style:none; margin:0; padding:20px 0;}
+ul.footer-page-list li{ list-style:none; display:inline-block; padding-right:20px;}
+.foot-column-3{ text-align:}
